@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +13,7 @@ html {
 }
 
 body {
-  background-color: rgba(34, 34, 99, 0.721);
+  background: linear-gradient(to bottom, #5ce1e6, #ffffff86);
   height: 100%;
 }
 
@@ -32,7 +34,7 @@ a {
 }
 
 .degrade {
-  background: linear-gradient(to right, #e6835c42, #5cc4e652);
+  background: #000000;
 }
 /* ESTILO DO HEADER */
 
@@ -47,10 +49,10 @@ header img {
 }
 
 header h1 {
-  font-size: 2em;
+  font-size: 2.5em;
   margin-bottom: 20px;
-  color: rgba(189, 191, 205, 0.41);
-  font-weight: 300;
+  color: #ce0d0d6c;
+  font-family: "Noto Sans", sans-serif;
 }
 
 /* ESTILO DOS BOTÕES */
@@ -84,30 +86,6 @@ footer a.btn-footer:hover {
   transform: scale(1.05);
 }
 
-.youtube {
-  color: #ff0000;
-}
-
-.twitter {
-  color: #3cabf1;
-}
-
-.tiktok {
-  color: #f7f7f7;
-}
-
-.whatsapp {
-  color: #25d366;
-}
-
-.phone {
-  color: #4371b5;
-}
-
-.email {
-  color: #db113b;
-}
-
 /* ESTILO FOOTER */
 
 footer {
@@ -124,4 +102,28 @@ footer a.btn-footer {
   border-radius: 50%;
   margin: 0 10px;
   transition: 0.2s;
+}
+
+.youtube:hover {
+  background-color: #ff0000;
+}
+
+.twitter:hover {
+  background-color: #3997e6;
+}
+
+.tiktok:hover {
+  background-color: #f60057;
+}
+
+.email:hover {
+  background-color: #aa242c;
+}
+
+.whatsapp:hover {
+  background-color: #25d366;
+}
+
+.phone:hover {
+  background-color: #1b86d4;
 }
