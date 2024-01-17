@@ -34,7 +34,7 @@ a {
 }
 
 .degrade {
-  background: #000000;
+  background: #00000089;
 }
 /* ESTILO DO HEADER */
 
@@ -49,9 +49,10 @@ header img {
 }
 
 header h1 {
-  font-size: 2.5em;
+  font-size: 2em;
   margin-bottom: 20px;
-  color: #ce0d0d6c;
+  color: #0000004c;
+  text-transform: uppercase;
   font-family: "Noto Sans", sans-serif;
 }
 
